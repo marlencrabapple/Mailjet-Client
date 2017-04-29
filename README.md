@@ -1,4 +1,4 @@
-# Lob::Client #
+# Mailjet::Client #
 A client for a limited subset of Mailjet's API. Currently only supports sending emails.
 
 ## Example Usage ##
