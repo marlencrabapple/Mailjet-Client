@@ -1,4 +1,9 @@
 Revision history for Mailjet-Client
 
 {{$NEXT}}
+
+0.01  2019-02-07 15:18:45 PST
         - Initial release
+        - Almost a complete rewrite
+        - Add send API v3.1 support
+        - Support a couple of other information endpoints
