@@ -1,37 +1,26 @@
-# Mailjet::Client #
-A client for a limited subset of Mailjet's API. Currently only supports sending emails.
+# NAME
 
-## Example Usage ##
-```
-use strict;
-use warnings;
+Mailjet::Client - Blah blah blah
 
-use lib 'lib';
+# SYNOPSIS
 
-use Mailjet::Client;
-use Data::Dumper;
+    use Mailjet::Client;
 
-my $from_name = $ARGV[0];
-my $from_email = $ARGV[1];
-my $recipients = [ { email => $ARGV[2] } ];
+# DESCRIPTION
 
-my $client = Mailjet::Client->new({
-  api_keys => {
-    public => 'public_key_here',
-    private => 'private_key_here'
-  }
-});
+Mailjet::Client is
 
-my $res = $client->send_mail({
-  FromEmail => $from_email,
-  FromName => $from_name,
-  Recipients => $recipients,
-  Subject => 'Mailjet API Test',
-  'Text-Part' => 'Testing Mailjet::Client, a Mailjet API client. Ignore this please.',
-  Headers => {
-    'Reply-To' => 'webmaster@crosnerlegal.com'
-  }
-});
+# AUTHOR
 
-print Dumper($res)
-```
+Ian P Bradley <ian.bradley@studiocrabapple.com>
+
+# COPYRIGHT
+
+Copyright 2019- Ian P Bradley
+
+# LICENSE
+
+This library is free software; you can redistribute it and/or modify
+it under the same terms as Perl itself.
+
+# SEE ALSO
