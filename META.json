@@ -41,6 +41,8 @@
             "JSON::MaybeXS" : "0",
             "LWP::Protocol::https" : "0",
             "LWP::UserAgent" : "0",
+            "Syntax::Keyword::Try" : "0",
+            "URI" : "0",
             "perl" : "v5.28.1"
          }
       },
@@ -51,6 +53,17 @@
       }
    },
    "release_status" : "stable",
+   "resources" : {
+      "bugtracker" : {
+         "web" : "https://github.com/marlencrabapple/Mailjet-Client/issues"
+      },
+      "homepage" : "https://github.com/marlencrabapple/Mailjet-Client",
+      "repository" : {
+         "type" : "git",
+         "url" : "https://github.com/marlencrabapple/Mailjet-Client.git",
+         "web" : "https://github.com/marlencrabapple/Mailjet-Client"
+      }
+   },
    "version" : "0.01",
    "x_generated_by_perl" : "v5.28.1",
    "x_serialization_backend" : "Cpanel::JSON::XS version 4.08",
