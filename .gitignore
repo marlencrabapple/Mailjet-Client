@@ -10,3 +10,4 @@ MYMETA.*
 /local
 cpanfile.snapshot
 .vstags
+.vscode

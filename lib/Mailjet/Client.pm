@@ -35,7 +35,7 @@ sub send_mail {
   my $version = $args{version} ? $args{version} : $$self{version};
   $args{json_body} = 1;
 
-  return $version && $version == 3? $self->send_mail_3(%args) : $self->send_mail_31(%args)
+  return $version && $version == 3 ? $self->send_mail_3(%args) : $self->send_mail_31(%args)
 }
 
 sub send_mail_31 {
